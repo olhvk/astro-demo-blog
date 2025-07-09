@@ -4,4 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  
+# Skip dependency installation phase since Netlify will handle it automatically
+[build.processing]
+  skip_processing = false
 
